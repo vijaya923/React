@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var username = 'vijji2026';
+
+        var email = 'vijji@gmail.com';
+
+        var userId = 123;
+
+        var userInfo = {
+            username,
+            email,
+            userId,
+            getuserId() {
+                return this.userId;
+            },
+            getEmail() {
+                return this.email;
+            }
+        };
+
+        console.log(userInfo);
+
+        console.log('user Id', userInfo.getuserId());
+
+     </script>
+</body>
+</html>

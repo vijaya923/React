@@ -1,0 +1,66 @@
+Modules: Sharing information between different typescript files
+
+1.ts
+export const name = 'varun';
+
+export const id =45;
+
+export const getId = function() {
+    return id;
+};
+
+export default companyName ='Digital Edify';
+
+
+2.ts
+import companyName, {name, id, getId} from '1.ts';
+
+from companyName from '1.ts';
+
+console.log(name);
+
+Type Inference : Type inference in TypeScript is the ability of the compiler to automatically determine the 
+datatype of a variable,function return value, object, or array based on its assigned value and usage, without requiring explicit type annotations.
+
+Type compatability in TypeScript refers to the rules that govern whether one type can be assigned to another,
+or used interchangeably in contexts like function arguments or return values.
+
+Enums: Enums(enumerations) in TypeScript provide a way to define a set of named constants.They enhance code
+ readability and maintainability by allowing the use of descriptive names instead of raw numeric or string values. 
+
+ syntax:
+
+   enumenumName {
+    value1,
+    value2,
+    value3,
+
+
+    ...
+    valueN
+   }
+
+Inheritance
+Polymorphism
+Abstraction
+Interfaces
+Abstract Classes
+
+Inheritance: Inheritig properties and methods of parent in child class.
+
+ syntax:
+
+    class ClassA {
+        //Properties
+        //Methods
+
+    }
+
+    class ClassB extends ClassA{
+
+    }
+
+    Note: Object needs to created for child class extend of parent class.
+
+
+

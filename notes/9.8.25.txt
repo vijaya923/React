@@ -1,0 +1,41 @@
+Class: Collection of variables and methods.
+
+   syntax:
+
+     class ClassName {
+        variableName: datatype;
+
+        constructor(param1: datatype) {
+
+        }
+
+        methodName1(param1:datatype) {
+
+            //statements...
+            return value;
+        }
+        methodName2(param1:datatype) {
+
+            //statements...
+            return value;
+        }
+        methodName3(param1:datatype) {
+
+            //statements...
+            return value;
+        }
+    }
+
+    Creation of object using class
+
+    const objName1= new ClassName(value1);
+    const objName2= new ClassName(value1);
+
+> To compile typescript source code
+  
+  tsc filename.ts - It transpiles from Typescript to Javascript
+
+> To execute the source code
+
+  node filename.js
+

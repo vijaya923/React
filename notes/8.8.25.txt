@@ -1,0 +1,68 @@
+Typescript: It is a programming language which is built on javascript.
+
+programming language : whole instructions of a file will be executed at a time and returns the output.
+
+Static Typing Indicates defining the data type while declaring the variable.
+
+>It is a high level (Human understandable) programming language 
+
+>It is built to develop large scale applications and transpites the code to Javascript.
+
+  Transplation: converting the instructions from one programming language to another programming language.
+
+> Browser won't support TypeScript, that's why we  need to convert the instructions from typescript to JavaScript to view the output
+
+> It is developed by microsoft and released as open-source software.
+
+> Typescript may be used by javascript to develop client side and server side applications.
+
+  client side applications - React Js/ Angular / Vue Js
+
+  server side applications - Node Js & Express Js
+
+> Typescript compiler (tsc) will help us in transpiling instructions from Typescript to JavaScript.
+
+> Current stable version is 5.8.2
+
+> Initial release was on 1 october 2012
+
+> File extension .ts (Typescript) / .tsx (TypeScript + XML)
+
+>Need to install Node.js runtime environment to run javascript applications other than browser.
+
+   url to download : https://node.js.org/en
+
+   To verify installation 
+
+     node -v (Command prompt / Terminal)
+
+> NPM (Node Package Manager) - Manages all the packages (functionality/Group of functionalities/Library/framework) of node.js runtime environment.
+
+> To install Typescript compiler
+
+   npm install- global typescript
+
+> To verify installation
+
+  tsc -v
+   
+variable 
+
+Data types
+  
+  syntax:
+
+    const variableName: datatype = value;
+
+Interface: It is used to define type for Object or Class.
+
+   syntax: It is combination of variable and method declarations.
+   
+     interface interfaceName {
+        fieldName: dataType;
+        fieldName: dataType;
+        fieldName: dataType;
+        fieldName: dataType;
+        methodName(): retrnType;
+
+     }

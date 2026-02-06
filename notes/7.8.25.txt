@@ -1,0 +1,87 @@
+Object Literal Enhancements
+1. Key & variable of the same name.
+2. Defining methods.
+
+1. Key & Variable of same name:
+
+    var variableName = value;
+
+    var obj = {
+         keyName: variableName
+
+    };
+
+    Changed to :
+
+    var obj = {
+        keyName,
+    }
+
+2. Defining methods:
+
+   Syntax:
+
+   var obj = {
+         methodName() {
+              // method body
+         }
+   };
+
+Promise:
+
+  API Call- Asynchronous Operation- If we are un aware of time taken to return response for a request.
+
+    - Get User Info By Id - 2 sec
+
+
+ Amazon prime
+
+ 5G
+
+    Movie 1 - 1 GB
+
+    Movie 2 - 750 MB
+
+4G
+
+> To hold the further execution of the instructions by Javascript Engine until we get response from API. - Promise.
+
+   Syntax:
+
+     var promiseObj = new Promise(function(resolve, reject){
+
+        if (success) {
+            resolve(response)
+        }else{
+            reject(error)
+        }
+     });
+
+     fetch(api1).then(function(response){
+          fetch(api2).then(function(response){
+                 fetch(api3).then(function(response){
+
+     }).catch(function(error) {
+
+     })
+          }).catch(function(error) {
+          })
+        
+         }).catch(function(error) {
+         })
+
+         aync function functionName() {
+            try {
+
+                await promiseObj;
+                await promiseObj;
+                await promiseObj;
+
+            } catch(error) {
+                
+            }
+         }
+
+
+
+     

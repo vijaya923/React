@@ -1,0 +1,71 @@
+React Js
+
+A frontend app can be build using
+1. React with javaScript
+2. React with TypeScript
+
+> It's a frontend library which is used to build single page Applications.
+
+    > we will only one html file(index.html) - Routing Concept
+
+         > when we navigate from one route to another route, existing route source will be removed and
+         replaced with new route source code.
+
+         > Application will not reload when we navigate from one route to another.
+Prerequisite for React Js
+HTML
+CSS
+javaScript
+TypeScript
+
+Node Js: It's a javaScript runtime environment, which executes javaScript source code and give output.
+
+Node JS Link:
+
+
+https://nodejs.org/en
+
+Vite Js: It's a build tool,which converts the source of React into plain HTML, CSS & Javascript.
+
+> To create React Js
+
+npm create vite@latest
+
+>once React application is created,run below commands
+
+    cd vite-project: To navigate to child folder.
+
+    npm install: Installs all the packages required for the application.
+
+    npm run dev: It executes the source code and provide output
+
+>tsx -TypeScript + XML (Extensible Markup Lanuage) - Custom tag can be created using XML.
+
+Folder Structure
+
+vite-project
+
+     node_modules: A folder which has all the packages installed.
+
+     public Static files - images
+
+     src (source)
+
+
+     .gitignore: files which should be ignored in storing in cloud git,needs to included here.
+
+     eslint.config.js: ESLinter Configuration - Monitors the statements and if any mistakes show warnings.
+
+     index.html: It's a root html file.
+
+     package-lock.json: Dependent packages names and versions
+
+     package.json: Package names and versions also configuration of project
+
+     README.md: To write about the project.
+
+     tsconfig.app.json: TypeScript configuration file
+
+     tsconfig.json : TypeScript configuration file
+     
+     tsconfig.node.json: TypeScript configuration file

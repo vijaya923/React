@@ -1,0 +1,14 @@
+Class: 
+
+# when ES6 features are used in file, use below command.
+   tsc 11.8.25.ts --target es2015
+
+   Task: Create a product Class
+
+     Fields
+        
+        name,price,stock
+
+    Method:
+
+       purchase - quantity

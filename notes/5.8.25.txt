@@ -1,0 +1,46 @@
+Array helper methods
+1. forEach
+2. map
+3. filter
+4. find
+5. reduce
+
+1. forEach: To iterate values of the array from starting to ending index.
+
+  Syntax:
+
+     arrayName.forEach(function(currentValue, index){
+
+     });
+2. map: To modify the values present in array.
+
+   Syntax:
+
+      arrayName.map(function(currentValue, index){
+        return modifiedValue;
+      }) 
+
+Spread Operator: To extract data present in array / object.
+
+    Syntax:
+
+       {key3: value3, ...prevObj1, key2: value2 ,...prevObj2, key1: value1}
+
+       [...prevArrayName1, prevArrayName2, value1, value2, value3]
+
+3. filter: To filter data presen in array.
+    
+    Syntax:
+
+      const filteredArray =arrayName.filter((currentValue, index) =>{
+
+      });
+
+4. find: to retrieve value from array.
+   
+   Syntax:
+
+      const filteredValue = arrayName.find((CurrentValue, index) => {
+        return condition;
+      });
+    

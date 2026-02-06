@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+
+<body>
+    <script>
+
+        var arr = [5, 4, 6];
+
+        var sum = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        console.log('sum is', sum);
+
+        var sum = arr.reduce((acc, value) => acc + value, 0);
+
+        console.log('sum is', sum);
+
+        function calculateSum(...restValues) {
+            const sum = restValues.reduce((acc, value) => acc + value, 0);
+            console.log('sum of values', sum);
+        }
+        calculateSum(89, 45);
+
+        calculateSum(90, 78, 12);
+
+        function calculateTotalPrice(price, discount = 0) {
+            const totalPrice = price - (price * discount / 100);
+            console.log('Total Price', totalPrice);
+        }
+
+        calculateTotalPrice(500);
+
+        // const value1 = arr[0];
+        // const value2 = arr[1];
+        // const value3 = arr[2];
+
+        const [value1, value2, value3] = arr;
+        console.log(value3);
+
+        const userInfo = {
+            name: 'Ravi',
+            city: 'Banglore',
+            email: 'ravi@gmail.com',
+            address: {
+                area: 'Madhapur'
+            }
+        };
+
+        // const name = userInfo.name;
+
+        // const city = userInfo.city;
+
+        const { name, city, address: { area } } = userInfo;
+
+        console.log(area);
+
+        const geoLocation = {
+            "documentation": "https://opencagedata.com/api",
+            "licenses": [
+                {
+                    "name": "see attribution guide",
+                    "url": "https://opencagedata.com/credits"
+                }
+            ],
+            "results": [],
+            "status": {
+                "code": 401,
+                "message": "unknown API key"
+            },
+            "stay_informed": {
+                "blog": "https://blog.opencagedata.com",
+                "mastodon": "https://en.osm.town/@opencage"
+            },
+            "thanks": "For using an OpenCage API",
+            "timestamp": {
+                "created_http": "Wed, 06 Aug 2025 02:55:48 GMT",
+                "created_unix": 1754448948
+            },
+            "total_results": 0
+        };
+
+        const { status: { code }, thanks, stay_informed: { blog } } = geoLocation;
+
+    </script>
+</body>
+
+</html>

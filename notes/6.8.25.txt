@@ -1,0 +1,69 @@
+reduce:
+
+Syntax:
+
+    arrayName.reduce(function(acculumator, currentValue) {
+
+    } , intial value);
+
+    accumulator - It's a temporary storage, used to store resultant of iteration
+
+
+
+var name;
+
+console.log(name)
+
+    undefined + 78
+
+Rest Operator: It is used to store rest of the values passed to the function.
+
+    Syntax:
+
+      function functionName(param1, param2, ...restValues) {
+
+      }
+
+      functionName(value1, value2, value3)
+
+      functionName(value1, value2, value3,Value4)
+
+      functionName(value1, value2)
+
+      functionName(value1, value2, value3, Value4, Value5)
+
+      Note: restValues parameter should be last parameter in function.
+
+
+Default Parameters: Used to assign default value to parameter i the function.
+
+   Syntax:
+
+       function functionName(param1 = defaultValue, param2 = defaultValue){
+
+       }
+
+       functionName();
+
+
+500
+
+10
+
+450
+
+(500 * 10)/100 -> 5000 / 100 -> 50
+
+500 - 50 -> 450
+
+Destructuring of Array/object: Extracting data from array/object into individual variables.
+
+   Syntax:
+      
+      const [variable1, variable2, variable3] = [value1, value2, value3]
+
+
+
+
+
+

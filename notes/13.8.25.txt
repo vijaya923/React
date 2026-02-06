@@ -1,0 +1,31 @@
+Abstraction: Abstraction in Typescript, as in object-oriented programming generally, is the concept of hiding 
+complex implementation details and exposing only the essential, relevant information to the user. It focuses on 
+"what" an object does rather than "how" it does it.
+
+1. Abstraction can be achieved using interfaces.
+
+   Syntax:
+
+     interface InterfaceName {
+        property1: dataType;
+        property2: dataType;
+
+        method1(): returnType;
+        method2(): returnType;
+        method3(): returnType;
+
+     }
+      
+      class ClassName implements InterfaceName {
+         property1: dataType = value;
+
+         method(): returnType {
+            
+         }
+
+
+      }
+
+    
+
+     

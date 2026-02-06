@@ -1,0 +1,75 @@
+ES6 (ECMA Script 6) - A Version of Javascript
+Typescript - programming Language - JS + Types.
+React JS
+Project using React JS
+
+
+React Js / Angular / Vue Js - Alternate libraries or frameworks to build Frontend Apps.
+
+Library: predefined functionalities.
+
+framework: predefined functionalities + Structure of the file.
+
+
+Bootstrap
+
+React + JS
+
+React + TS
+
+
+
+Static Typing: Assigning data type to a variable, during variable declaration phase. - TS
+
+Dynamic Typing: Assigning data type to a variable , during compilation phase. - JS
+
+
+
+React - For developing web applications. - A library which is build on top of Js, HTML, CSS.
+
+React Native - For developing mobile applications.
+
+ES6:
+Arrow Function:
+1. Instead of function keyword,we use arrow operator (=>)
+2. If we have one line statement, no need of writing curly braces ({}) and return keyword.
+
+   const functionName = function() {
+      return value;
+   }
+
+   const functionName = {} => value;
+    
+    arrayName.forEach(function(value) {
+
+    });
+
+    with arrow function:
+
+        arrayName.forEach(() => value);
+
+Callback Function: A function which is passed as a parameter to another function.
+
+      function functionName(){
+
+      }
+
+      functionName2(functionName);
+
+      array.Name.forEach(function(value){
+
+      });
+let and const:
+
+scope: Visibility of value of a variable.
+1. Global scope: var
+2. Function scope: var, let & const
+3. Block scope: let & const
+
+      var firstname = 'Audi';
+      
+      var lastname = 'vijji';
+
+      var fullname = 'Ms. ' ' + firstname + ' ' + lastname;
+
+      var fullname = 'Ms. ${firstname} ${lastname}'; -> Template Literals - String Concatenation.
