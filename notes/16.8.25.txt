@@ -1,0 +1,22 @@
+Data Binding: Binding information available in Typescript variables to HTML Tags.
+String Interpolation:
+
+    Syntax:
+
+         <tagName>{variableName}</tagName>
+
+
+         <tagName src={variableName}></tagName>
+
+
+Map Method: Used to iterate the HTML content for no of values present in the array.
+
+    Syntax:
+
+        arrayname.map((curentValue,index) => (
+            // Html  content which needs to be iterated  needs to be included here..
+            <div>
+
+
+            </div>
+        ))
